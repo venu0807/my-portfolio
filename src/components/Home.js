@@ -1,10 +1,10 @@
 import React from 'react';
-import profileImage from '../f4126512-621a-11ef-8031-0242ac110011.jpeg'
+import profileImage from '../f4126512-621a-11ef-8031-0242ac110011.jpeg';
 
 function Home() {
   return (
     <div className="main-content">
-      <section id="home" className="home-section">
+      <section id="home" className="section">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
@@ -20,19 +20,6 @@ function Home() {
         </div>
       </section>
 
-      <section id="about" className="home-section">
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-6">
-              <h1 className="display-4 fw-bold mb-3">Venu Gopal Reddy Palugulla</h1>
-              <h2 className="h3 text-primary mb-4">Python Developer</h2>
-              <p className="lead mb-4">A motivated Python Developer with strong programming fundamentals and focus on creating efficient solutions</p>
-              <a href="#contact" className="btn btn-primary btn-lg">Contact Me</a>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <section id="education" className="section">
         <div className="container">
           <h2 className="text-center mb-5">Education</h2>
@@ -40,17 +27,33 @@ function Home() {
             <div className="col-md-6">
               <div className="education-card">
                 <h3>Master of Computer Applications (MCA)</h3>
-                <p>JNTUH</p>
-                <p>2021 - 2023</p>
-                <p>CGPA: 8.61</p>
+                <p>Galgotias University</p>
+                <p>2024 - 2026</p>
+                {/* <p>CGPA: 8.61</p> */}
               </div>
             </div>
             <div className="col-md-6">
               <div className="education-card">
               <h3>BSc Computer Science</h3>
-                <p>Osmania University</p>
-                <p>2018 - 2021</p>
-                <p>CGPA: 8.47</p>
+                <p>Chaudhary Charan Singh University</p>
+                <p>2019 - 2022</p>
+                <p>Percentage of 85</p>
+              </div>
+              </div>
+              <div className="col-md-6">
+              <div className="education-card">
+              <h3>Intermediate</h3>
+                <p>Sri Sadhana Junior College</p>
+                <p>2017 - 2019</p>
+                <p>CGPA: 9.12</p>
+              </div>
+              </div>
+              <div className="col-md-6">
+              <div className="education-card">
+              <h3>SSC</h3>
+                <p>Sri Vivekananda Vidya Peetham</p>
+                <p>Completed in 2017</p>
+                <p>CGPA: 9.0</p>
               </div>
               </div>
             </div>
@@ -66,10 +69,6 @@ function Home() {
                 <h3>Programming Languages</h3>
                 <ul>
                   <li>Python</li>
-                  <li>Java</li>
-                  <li>SQL</li>
-                  <li>HTML</li>
-                  <li>CSS</li>
                   <li>JavaScript</li>
                 </ul>
               </div>
@@ -80,10 +79,9 @@ function Home() {
                 <ul>
                   <li>Django</li>
                   <li>Django REST Framework</li>
-                  <li>Git</li>
                   <li>React.js</li>
                   <li>MySQL</li>
-                  <li>PostgreSQL</li>
+                  <li>Web Development</li>
                 </ul>
               </div>
             </div>
