@@ -65,7 +65,6 @@ function Navbar() {
             <li className="nav-item"><a className="nav-link" href="#certificates">CERTIFICATES</a></li>
             <li className="nav-item"><a className="nav-link" href="#skills">SKILLS</a></li>
             <li className="nav-item"><a className="nav-link" href="#projects">PROJECTS</a></li>
-            {/* <li className="nav-item"><a className="nav-link" href="#contact">CONTACT</a></li> */}
           </ul>
         </div>
       </div>

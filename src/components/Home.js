@@ -5,22 +5,21 @@ function Home() {
   return (
     <div className="main-content">
       <section id="home" className="section">
-        <div className="container">
+        <div className="container mb-5 mt-5">
           <div className="row align-items-center">
-            <div className="col-lg-6">              <h1 className="display-4 fw-bold mb-3">
+            <div className="col-lg-6">
+              {" "}
+              <h1 className="display-4 fw-bold mb-3">
                 Venu Gopal Reddy Palugulla
               </h1>
-              <h2 className="h3 text-light mb-4">Aspiring Full Stack Developer</h2>
-              {/* <p className="lead text-light mb-4">                  Aspiring Full Stack Developer with a strong foundation in Python, Java, and web technologies.
-                  Currently pursuing MCA with a specialization in AI & ML at Galgotias University.
-                  Experienced in developing end-to-end web applications using Django and React.
-                  Proficient in implementing RESTful APIs, database management, and user authentication systems.
-                  Passionate about building scalable solutions and continuously learning new technologies.
-              </p> */}
+              <h3 className="h3 text-light mb-4">
+                Aspiring Full Stack Developer
+              </h3>
               <a href="#contact" className="btn btn-primary btn-lg">
                 Contact Me
               </a>
-            </div>            <div className="col-lg-6">
+            </div>{" "}
+            <div className="col-lg-6">
               <div className="image-container">
                 <div className="image-wrapper">
                   <img
@@ -35,23 +34,28 @@ function Home() {
           </div>
         </div>
       </section>
-
       <section id="about" className="section">
-        <div className="container">
+        <div className="container mt-5">
           <h2 className="text-center mb-5">About Me</h2>
           <div className="row">
-            <div className="col-lg-6">
-              <div className="about-content">              <p className="lead mb-4">
-                  A Full Stack Developer with expertise in both front-end and back-end technologies. I have a proven
-                  ability to build responsive, user-friendly, and high-performance web applications, consistently delivering
-                  robust solutions. I'm committed to staying current with industry trends and best practices,
-                  continuously enhancing my skills, and contributing to innovative software solutions.
-                </p>                
+            <div className="col-lg-7">
+              <div className="about-content">
+                {" "}
+                <p className="lead mb-4">
+                  A Full Stack Developer with expertise in both front-end and
+                  back-end technologies. I have a proven ability to build
+                  responsive, user-friendly, and high-performance web
+                  applications, consistently delivering robust solutions. I'm
+                  committed to staying current with industry trends and best
+                  practices, continuously enhancing my skills, and contributing
+                  to innovative software solutions.
+                </p>
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-5">
               <div className="about-stats">
-                <h3>Quick Facts</h3>                <div className="stats-grid">
+                <h3>Quick Facts</h3>{" "}
+                <div className="stats-grid">
                   <div className="stat-item">
                     <span className="stat-number">3</span>
                     <span className="stat-label">Programming Languages</span>
@@ -62,7 +66,9 @@ function Home() {
                   </div>
                   <div className="stat-item">
                     <span className="stat-number">2</span>
-                    <span className="stat-label">Professional Certifications</span>
+                    <span className="stat-label">
+                      Professional Certifications
+                    </span>
                   </div>
                   <div className="stat-item">
                     <span className="stat-number">85% +</span>
@@ -74,75 +80,79 @@ function Home() {
           </div>
         </div>
       </section>
-
       <section id="education" className="section">
         <div className="container">
           <h2 className="text-center mb-5">Education</h2>
           <div className="row g-4">
-              <div className="col-md-6">
-                <div className="education-card">                  <div className="education-year">2024 - 2026</div>
-                  <h4>Master of Computer Applications (MCA)</h4>
-                  <p className="institution">Galgotias University</p>                  <p className="education-details">
-                    Major in Artificial Intelligence and Machine Learning
-                    <br />
-                    • Core focus: Machine Learning, Data Structures,  Algorithms and  Artificial Intelligence.
-                    <br />
-                    • Relevant coursework: Database Management, Web Development.
-                  </p>
-                  <div className="education-icon">
-                    <i className="fas fa-graduation-cap"></i>
-                  </div>
+            <div className="col-md-6 mb-4">
+              <div className="education-card">
+                {" "}
+                <div className="education-year">2024 - 2026</div>
+                <h4>Master of Computer Applications (MCA)</h4>
+                <p className="institution">Galgotias University</p>{" "}
+                <p className="education-details">
+                  Major in Artificial Intelligence and Machine Learning
+                  <br />
+                  • Core focus: Machine Learning, Data Structures, Algorithms
+                  and Artificial Intelligence.
+                  <br />• Relevant coursework: Database Management, Web
+                  Development.
+                </p>
+                <div className="education-icon">
+                  <i className="fas fa-graduation-cap"></i>
                 </div>
               </div>
-              <div className="col-md-6">
-                <div className="education-card">
-                  <div className="education-year">2019 - 2022</div>
-                  <h4>Bachelor of Computer Science (BSc)</h4>
-                  <p className="institution">Chaudhary Charan Singh University</p>
-                  <p className="education-details">
-                    Graduated with 85% | Dean's List
-                    <br />
-                    Core focus on Python, Django, and Web Development.
-                  </p>
-                  <div className="education-icon">
-                    <i className="fas fa-university"></i>
-                  </div>
+            </div>
+            <div className="col-md-6 mb-4">
+              <div className="education-card">
+                <div className="education-year">2019 - 2022</div>
+                <h4>Bachelor of Computer Science (BSc)</h4>
+                <p className="institution">Chaudhary Charan Singh University</p>
+                <p className="education-details">
+                  Graduated with 85% | Dean's List
+                  <br />
+                  Core focus on Python, Django, and Web Development.
+                </p>
+                <div className="education-icon">
+                  <i className="fas fa-university"></i>
                 </div>
               </div>
-              <div className="col-md-6">
-                <div className="education-card">
-                  <div className="education-year">2017 - 2019</div>
-                  <h4>Intermediate</h4>
-                  <p className="institution">Sri Sadhana Junior College</p>
-                  <p className="education-details">
-                    CGPA: 9.12 | PCM
-                    <br />
-                    Specialized in Mathematics and Science
-                  </p>
-                  <div className="education-icon">
-                    <i className="fas fa-school"></i>
-                  </div>
+            </div>
+            <div className="col-md-6">
+              <div className="education-card">
+                <div className="education-year">2017 - 2019</div>
+                <h4>Intermediate</h4>
+                <p className="institution">Sri Sadhana Junior College</p>
+                <p className="education-details">
+                  CGPA: 9.12 | PCM
+                  <br />
+                  Specialized in Mathematics and Science
+                </p>
+                <div className="education-icon">
+                  <i className="fas fa-school"></i>
                 </div>
               </div>
-              <div className="col-md-6">
-                <div className="education-card">
-                  <div className="education-year">2017</div>
-                  <h4>SSC</h4>
-                  <p className="institution">Sri Vivekananda Vidya Peetham</p>
-                  <p className="education-details">
-                    CGPA: 9.0 | Board of Secondary Education
-                  </p>
-                  <div className="education-icon">
-                    <i className="fas fa-award"></i>
-                  </div>
+            </div>
+            <div className="col-md-6">
+              <div className="education-card">
+                <div className="education-year">2017</div>
+                <h4>SSC</h4>
+                <p className="institution">Sri Vivekananda Vidya Peetham</p>
+                <p className="education-details">
+                  CGPA: 9.0 | Board of Secondary Education
+                </p>
+                <div className="education-icon">
+                  <i className="fas fa-award"></i>
                 </div>
               </div>
+            </div>
           </div>
         </div>
-      </section>      <section id="certificates" className="section">
+      </section>{" "}
+      <section id="certificates" className="section">
         <div className="container">
           <h2 className="text-center mb-5">Certifications</h2>
-          <div className="row g-4">            
+          <div className="row g-4">
             <div className="col-md-6">
               <div className="certificate-card">
                 <div className="certificate-icon">
@@ -213,72 +223,97 @@ function Home() {
           </div>
         </div>
       </section>
-
       <section id="skills" className="section">
         <div className="container">
           <h2 className="text-center mb-5">Technical Skills</h2>
-          <div className="row g-4">            <div className="col-md-4">
-              <div className="skill-card">                <h3>Programming Languages</h3>
+          <div className="row g-4">
+            {" "}
+            <div className="col-md-4">
+              <div className="skill-card">
+                {" "}
+                <h3>Programming Languages</h3>
                 <div className="skill-item">
                   <span>Python</span>
                   <div className="skill-progress">
-                    <div className="progress-bar" style={{width: '90%'}}></div>
+                    <div
+                      className="progress-bar"
+                      style={{ width: "90%" }}
+                    ></div>
                   </div>
                 </div>
                 <div className="skill-item">
                   <span>Java</span>
                   <div className="skill-progress">
-                    <div className="progress-bar" style={{width: '75%'}}></div>
+                    <div
+                      className="progress-bar"
+                      style={{ width: "75%" }}
+                    ></div>
                   </div>
                 </div>
-                 <div className="skill-item">
+                <div className="skill-item">
                   <span>C</span>
                   <div className="skill-progress">
-                    <div className="progress-bar" style={{width: '80%'}}></div>
+                    <div
+                      className="progress-bar"
+                      style={{ width: "80%" }}
+                    ></div>
                   </div>
                 </div>
               </div>
             </div>
             <div className="col-md-4">
-              <div className="skill-card">                <h3>Frameworks & Libraries</h3>
+              <div className="skill-card">
+                {" "}
+                <h3>Frameworks & Libraries</h3>
                 <div className="skill-item">
                   <span>Django</span>
                   <div className="skill-progress">
-                    <div className="progress-bar" style={{width: '88%'}}></div>
+                    <div
+                      className="progress-bar"
+                      style={{ width: "88%" }}
+                    ></div>
                   </div>
                 </div>
                 <div className="skill-item">
                   <span>Django REST Framework</span>
                   <div className="skill-progress">
-                    <div className="progress-bar" style={{width: '85%'}}></div>
+                    <div
+                      className="progress-bar"
+                      style={{ width: "85%" }}
+                    ></div>
                   </div>
                 </div>
                 <div className="skill-item">
                   <span>React</span>
                   <div className="skill-progress">
-                    <div className="progress-bar" style={{width: '82%'}}></div>
+                    <div
+                      className="progress-bar"
+                      style={{ width: "82%" }}
+                    ></div>
                   </div>
                 </div>
               </div>
             </div>
             <div className="col-md-4">
-              <div className="skill-card">                <h3>Database & Tools</h3>
+              <div className="skill-card">
+                {" "}
+                <h3>Database & Tools</h3>
                 <div className="skill-item">
                   <span>MySQL</span>
                   <div className="skill-progress">
-                    <div className="progress-bar" style={{width: '88%'}}></div>
+                    <div
+                      className="progress-bar"
+                      style={{ width: "88%" }}
+                    ></div>
                   </div>
                 </div>
-                {/* <div className="skill-item">
-                  <span>Git & GitHub</span>
-                  <div className="skill-progress">
-                    <div className="progress-bar" style={{width: '85%'}}></div>
-                  </div>
-                </div> */}
                 <div className="skill-item">
                   <span>RESTful APIs</span>
                   <div className="skill-progress">
-                    <div className="progress-bar" style={{width: '85%'}}></div>
+                    <div
+                      className="progress-bar"
+                      style={{ width: "85%" }}
+                    ></div>
                   </div>
                 </div>
               </div>
@@ -286,34 +321,33 @@ function Home() {
           </div>
         </div>
       </section>
-
       <section id="projects" className="section">
         <div className="container">
           <h2 className="text-center mb-5">Projects</h2>
           <div className="row g-4">
             <div className="col-md-6">
-              <div className="project-card">                <h3>Movie Recommendation System</h3>
+              <div className="project-card">
+                {" "}
+                <h3>Movie Recommendation System</h3>
                 <p>Full Stack Project | Duration: 2 months</p>
                 <p>
-                  • Architected and developed a comprehensive movie recommendation platform using
-                  React.js for the frontend and Django/DRF for the backend, implementing RESTful APIs
-                  for efficient data exchange
+                  • Architected and developed a comprehensive movie
+                  recommendation platform using React.js for the frontend and
+                  Django/DRF for the backend, implementing RESTful APIs for
+                  efficient data exchange
                 </p>
                 <p>
-                  • Designed and implemented a robust MySQL database schema for managing movie data,
-                  user preferences, and viewing history, optimizing query performance for large datasets
+                  • Designed and implemented a robust MySQL database schema for
+                  managing movie data, user preferences, and viewing history,
+                  optimizing query performance for large datasets
                 </p>
                 <p>
-                  • Integrated JWT-based authentication system for secure user management and
-                  personalized recommendations
+                  • Integrated JWT-based authentication system for secure user
+                  management and personalized recommendations
                 </p>
                 <p>
-                  • Implemented responsive UI design using Bootstrap and custom CSS, ensuring
-                  seamless user experience across devices
-                </p>
-                <p>
-                  • Utilized Git for version control and implemented CI/CD pipeline for automated
-                  testing and deployment
+                  • Implemented responsive UI design using Bootstrap and custom
+                  CSS, ensuring seamless user experience across devices
                 </p>
                 <div className="project-tech">
                   <span className="tech-tag">Python</span>
@@ -327,7 +361,8 @@ function Home() {
             </div>
           </div>
         </div>
-      </section>      <section id="posts" className="section">
+      </section>{" "}
+      <section id="posts" className="section">
         <div className="container">
           <h2 className="text-center mb-5">Recent Activities</h2>
           <div className="row g-4">
@@ -339,7 +374,11 @@ function Home() {
                 <div className="post-content">
                   <h3>Earned New Certification</h3>
                   <p className="post-date">June 2025</p>
-                  <p className="post-text">Successfully completed GenAI Powered Data Analytics from Tata group, enhancing my full-stack development capabilities.</p>
+                  <p className="post-text">
+                    Successfully completed GenAI Powered Data Analytics from
+                    Tata group, enhancing my full-stack development
+                    capabilities.
+                  </p>
                   <div className="post-tags">
                     <span>#Django</span>
                     <span>#WebDevelopment</span>
@@ -356,7 +395,11 @@ function Home() {
                 <div className="post-content">
                   <h3>Project Milestone</h3>
                   <p className="post-date">January 2025</p>
-                  <p className="post-text">Completed the Movie Recommendation System project using React and Django, implementing advanced features and robust architecture.</p>
+                  <p className="post-text">
+                    Completed the Movie Recommendation System project using
+                    React and Django, implementing advanced features and robust
+                    architecture.
+                  </p>
                   <div className="post-tags">
                     <span>#React</span>
                     <span>#Django</span>
@@ -368,7 +411,6 @@ function Home() {
           </div>
         </div>
       </section>
-
       <section id="contact" className="section">
         <div className="container">
           <h2 className="text-center mb-5">Contact</h2>
@@ -399,8 +441,8 @@ function Home() {
                   </a>
                 </div>
                 <div className="col-md-6">
-                  <a 
-                    href="https://github.com/venu0807" 
+                  <a
+                    href="https://github.com/venu0807"
                     className="contact-item"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -416,11 +458,15 @@ function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <i className="fas fa-code" style={{
-                      background: 'linear-gradient(to right, #ffa116, #ff6b6b)',
-                      WebkitBackgroundClip: 'text',
-                      WebkitTextFillColor: 'transparent'
-                    }}></i>
+                    <i
+                      className="fas fa-code"
+                      style={{
+                        background:
+                          "linear-gradient(to right, #ffa116, #ff6b6b)",
+                        WebkitBackgroundClip: "text",
+                        WebkitTextFillColor: "transparent",
+                      }}
+                    ></i>
                     LeetCode
                   </a>
                 </div>
