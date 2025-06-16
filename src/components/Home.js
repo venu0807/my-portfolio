@@ -180,11 +180,27 @@ function Home() {
             <div className="col-md-6">
               <div className="certificate-card">
                 <div className="certificate-icon">
+                  <i className="fas fa-brain"></i>
+                </div>
+                <div className="certificate-content">
+                  <h3>Introduction to Networks</h3>
+                  <p className="issuer">Cisco</p>
+                  <p className="issue-date">2025</p>
+                  <div className="certificate-skills">
+                    <span>Networking</span>
+                    <span>Computer Networks</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6">
+              <div className="certificate-card">
+                <div className="certificate-icon">
                   <i className="fas fa-award"></i>
                 </div>
                 <div className="certificate-content">
                   <h3>Developer Job Simulation</h3>
-                  <p className="issuer">Accenture</p>
+                  <p className="issuer">Accenture - Forage</p>
                   <p className="issue-date">2023</p>
                   <div className="certificate-skills">
                     <span>HTML/CSS</span>
