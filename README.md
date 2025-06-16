@@ -1,55 +1,38 @@
-# My Personal Portfolio
+# Personal Portfolio Website
 
-**[➡️ Live Demo Here](https://venu0807.github.io/my-portfolio/)**
+**➡️ Live Demo: [https://venu0807.github.io/my-portfolio/](https://venu0807.github.io/my-portfolio/)**
 
+![Portfolio Screenshot](public/screenshot.png) 
+<!-- Make sure to add a screenshot of your site to the public folder -->
 
+## About This Project
 
-## 📄 About This Project
-
-This is my personal portfolio, built from scratch to showcase my skills in front-end development, my passion for clean UI, and the projects I'm most proud of. This project demonstrates my ability to build a modern, responsive, and performant web application.
-
----
-
-## ✨ Key Features
-
-*   **Fully Responsive Design:** Looks great on all devices, from mobile phones to desktops.
-*   **Interactive Project Gallery:** Users can filter and click on projects to see more details.
-*   **Smooth Animations:** Implemented subtle page transitions and hover effects for a better user experience.
-*   **Contact Form:** A functional contact form that allows recruiters and clients to get in touch easily.
-*   **Dark/Light Mode Toggle:** A user-friendly option to switch themes.
+This project is my personal portfolio, built with React to showcase my skills in front-end development, the projects I've built, and my resume. It's a fully responsive web application designed to provide a clean and user-friendly experience for recruiters and potential collaborators.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-This project was built using the following technologies:
+*   **Front-End:** React.js, HTML5, CSS3
+*   **Deployment:** GitHub Pages
 
-*   **React.js:** For building the user interface.
-*   **CSS3 / SASS:** For styling and creating a custom design system.
-*   **Framer Motion:** For page animations and interactive elements.
-*   **EmailJS:** To power the contact form without a back-end.
-*   **GitHub Pages:** For deployment and hosting.
+*(Add any other libraries you used, like `styled-components`, `react-router`, etc.)*
 
 ---
 
-## 🚀 How to Run Locally
+## Key Features
 
-To get a local copy up and running, follow these simple steps.
-
-1.  Clone the repo
-    ```sh
-    git clone https://github.com/your-username/your-repo-name.git
-    ```
-2.  Install NPM packages
-    ```sh
-    npm install
-    ```
-3.  Start the development server
-    ```sh
-    npm start
-    ```
+*   **Responsive Design:** Adapts seamlessly to mobile, tablet, and desktop screens.
+*   **Project Showcase:** A dedicated section to display my work with links to live demos and code.
+*   **Interactive UI:** Smooth navigation and user-friendly layout.
 
 ---
+
+## How to Run Locally
+
+1.  Clone this repository: `git clone https://github.com/venu0807/my-portfolio.git`
+2.  Install dependencies: `npm install`
+3.  Run the app: `npm start`
 
 ## 📫 Contact
 
