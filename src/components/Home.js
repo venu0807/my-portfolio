@@ -5,7 +5,7 @@ function Home() {
   return (
     <div className="main-content">
       <section id="home" className="section">
-        <div className="container mb-5 mt-5">
+        <div className="container  pb-5 pt-5 mt-5">
           <div className="row align-items-center">
             <div className="col-lg-6">
               {" "}
@@ -153,13 +153,16 @@ function Home() {
         <div className="container">
           <h2 className="text-center mb-5">Certifications</h2>
           <div className="row g-4">
-            <div className="col-md-6">
+            <div className="col-md-6 mb-4">
               <div className="certificate-card">
                 <div className="certificate-icon">
                   <i className="fas fa-database"></i>
                 </div>
                 <div className="certificate-content">
-                  <h3>Python with Django Certification</h3>
+                  <a href="https://www.linkedin.com/posts/venu-gopal-reddy-palugulla-4948b8258_this-training-was-so-extremely-valuable-and-activity-7117468951965532160-_LLC?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD9-U7AB3QjRIIrnZEMt9F7u8SG2D0zo2v8">
+                    <h3>Python with Django Certification</h3>
+                  </a>
+
                   <p className="issuer">Besant Technologies</p>
                   <p className="issue-date">2023</p>
                   <div className="certificate-skills">
@@ -170,13 +173,15 @@ function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 mb-4">
               <div className="certificate-card">
                 <div className="certificate-icon">
                   <i className="fas fa-brain"></i>
                 </div>
                 <div className="certificate-content">
-                  <h3>GenAI Powered Data Analytics</h3>
+                  <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/ifobHAoMjQs9s6bKS/gMTdCXwDdLYoXZ3wG_ifobHAoMjQs9s6bKS_bEMfQ4JoPgRbftu4E_1749997845404_completion_certificate.pdf">
+                    <h3>GenAI Powered Data Analytics</h3>
+                  </a>
                   <p className="issuer">Tata Group - Forage</p>
                   <p className="issue-date">2025</p>
                   <div className="certificate-skills">
@@ -193,7 +198,10 @@ function Home() {
                   <i className="fas fa-brain"></i>
                 </div>
                 <div className="certificate-content">
-                  <h3>Introduction to Networks</h3>
+                  <a href="https://www.credly.com/badges/2f3e9d67-a796-496b-a0b3-57025f9d80ea/linked_in_profile">
+                    <h3>Introduction to Networks</h3>
+                  </a>
+
                   <p className="issuer">Cisco</p>
                   <p className="issue-date">2025</p>
                   <div className="certificate-skills">
@@ -209,7 +217,10 @@ function Home() {
                   <i className="fas fa-award"></i>
                 </div>
                 <div className="certificate-content">
-                  <h3>Developer Job Simulation</h3>
+                  <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Accenture%20Nordics/PxenP4rHNE6Bh4nQz_Accenture%20Nordics_bEMfQ4JoPgRbftu4E_1701404007263_completion_certificate.pdf">
+                    <h3>Developer Job Simulation</h3>
+                  </a>
+
                   <p className="issuer">Accenture - Forage</p>
                   <p className="issue-date">2023</p>
                   <div className="certificate-skills">
