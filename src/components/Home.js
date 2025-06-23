@@ -1,5 +1,6 @@
 import React from "react";
-import profileImage from "../f4126512-621a-11ef-8031-0242ac110011.jpeg";
+import profileImage from "../dp2.png";
+import fullStackImage from "../Full Stack Developer.jpg";
 
 function Home() {
   return (
@@ -158,9 +159,8 @@ function Home() {
                 <div className="certificate-icon">
                   <i className="fas fa-database"></i>
                 </div>
-                <div className="certificate-content">
-                  <a href="https://www.linkedin.com/posts/venu-gopal-reddy-palugulla-4948b8258_this-training-was-so-extremely-valuable-and-activity-7117468951965532160-_LLC?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD9-U7AB3QjRIIrnZEMt9F7u8SG2D0zo2v8">
-                    <h3>Python with Django Certification</h3>
+                <div className="certificate-content">                  <a href={fullStackImage} target="_blank" rel="noopener noreferrer">
+                    <h3>Full Stack with Python </h3>
                   </a>
 
                   <p className="issuer">Besant Technologies</p>
@@ -173,7 +173,27 @@ function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-md-6 mb-4">
+             <div className="col-md-6 mb-4">
+              <div className="certificate-card">
+                <div className="certificate-icon">
+                  <i className="fas fa-award"></i>
+                </div>
+                <div className="certificate-content">
+                  <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Accenture%20Nordics/PxenP4rHNE6Bh4nQz_Accenture%20Nordics_bEMfQ4JoPgRbftu4E_1701404007263_completion_certificate.pdf">
+                    <h3>Developer Job Simulation</h3>
+                  </a>
+
+                  <p className="issuer">Accenture - Forage</p>
+                  <p className="issue-date">2023</p>
+                  <div className="certificate-skills">
+                    <span>HTML/CSS</span>
+                    <span>JavaScript</span>
+                    <span>Responsive Design</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6">
               <div className="certificate-card">
                 <div className="certificate-icon">
                   <i className="fas fa-brain"></i>
@@ -211,26 +231,7 @@ function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-md-6">
-              <div className="certificate-card">
-                <div className="certificate-icon">
-                  <i className="fas fa-award"></i>
-                </div>
-                <div className="certificate-content">
-                  <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Accenture%20Nordics/PxenP4rHNE6Bh4nQz_Accenture%20Nordics_bEMfQ4JoPgRbftu4E_1701404007263_completion_certificate.pdf">
-                    <h3>Developer Job Simulation</h3>
-                  </a>
-
-                  <p className="issuer">Accenture - Forage</p>
-                  <p className="issue-date">2023</p>
-                  <div className="certificate-skills">
-                    <span>HTML/CSS</span>
-                    <span>JavaScript</span>
-                    <span>Responsive Design</span>
-                  </div>
-                </div>
-              </div>
-            </div>
+           
           </div>
         </div>
       </section>
@@ -339,7 +340,10 @@ function Home() {
             <div className="col-md-6">
               <div className="project-card">
                 {" "}
-                <h3>Movie Recommendation System</h3>
+                <a href="https://venu0807.github.io/Recommendation_System/">
+                 <h3>Movie Recommendation System</h3>
+                </a>
+               
                 <p>Full Stack Project | Duration: 2 months</p>
                 <p>
                   • Architected and developed a comprehensive movie
