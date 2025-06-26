@@ -1183,3 +1183,28 @@ ul li::before {
   text-decoration: none !important;
   color: inherit;
 }
+
+/* Remove tech stack logos */
+.tech-stack, .tech-stack img, .tech-logo, .tech-stack-logo {
+  display: none !important;
+}
+
+/* Remove color/background change on hover for all interactive elements */
+.nav-link:hover,
+.btn-primary:hover,
+.card:hover,
+.project-card:hover,
+.education-card:hover,
+.certificate-card:hover,
+.post-card:hover,
+.contact-item:hover,
+.tech-tag:hover,
+.certificate-skills span:hover,
+.post-tags span:hover,
+.text-gradient:hover {
+  background: none !important;
+  color: inherit !important;
+  box-shadow: none !important;
+  border-color: inherit !important;
+  filter: none !important;
+}

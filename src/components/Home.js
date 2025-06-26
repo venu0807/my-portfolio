@@ -2,24 +2,30 @@ import React from "react";
 import profileImage from "../dp2.png";
 import fullStackImage from "../Full Stack Developer.jpg";
 
+
 function Home() {
   return (
     <div className="main-content">
       <section id="home" className="section">
-        <div className="container  pb-5 pt-5 mt-5">
+        <div className="container pb-5 pt-5 mt-5">
           <div className="row align-items-center">
             <div className="col-lg-6">
-              {" "}
               <h1 className="display-4 fw-bold mb-3">
                 Venu Gopal Reddy Palugulla
               </h1>
-              <h3 className="h3 text-light mb-4">
-                Aspiring Full Stack Developer
+              <h3 className="h3 text-light mb-4" style={{color: 'var(--accent-primary)', fontWeight: 700}}>
+                Full Stack Developer | Building Modern Web Solutions
               </h3>
-              <a href="#contact" className="btn btn-primary btn-lg">
+              <p className="lead mb-4" style={{color: 'var(--text-secondary)', fontSize: '1.15rem'}}>
+                Passionate about delivering robust, scalable, and user-centric applications. Experienced in React, Django, REST APIs, and MySQL. Open to new opportunities and collaborations.
+              </p>
+              <a href="https://drive.google.com/file/d/18p1ZEuC88UgJugLxGf2HHd631LT96ejp/view?usp=drive_link" className="btn btn-primary btn-lg me-3">
+                View My Resume 
+              </a>
+              <a href="#contact" className="btn btn-outline-primary btn-lg" style={{marginLeft: '1rem', border: '2px solid var(--accent-primary)', color: 'var(--accent-primary)'}}>
                 Contact Me
               </a>
-            </div>{" "}
+            </div>
             <div className="col-lg-6">
               <div className="image-container">
                 <div className="image-wrapper">
@@ -34,6 +40,7 @@ function Home() {
             </div>
           </div>
         </div>
+
       </section>
       <section id="about" className="section">
         <div className="container mt-5">
@@ -41,16 +48,74 @@ function Home() {
           <div className="row">
             <div className="col-lg-7">
               <div className="about-content">
-                {" "}
-                <p className="lead mb-4">
-                  A Full Stack Developer with expertise in both front-end and
-                  back-end technologies. I have a proven ability to build
-                  responsive, user-friendly, and high-performance web
-                  applications, consistently delivering robust solutions. I'm
-                  committed to staying current with industry trends and best
-                  practices, continuously enhancing my skills, and contributing
-                  to innovative software solutions.
+                <p
+                  className="lead mb-4"
+                  style={{ color: "var(--text-secondary)", fontSize: "1.15rem" }}
+                >
+                  <span
+                    style={{
+                      color: "var(--accent-primary)",
+                      fontWeight: 600,
+                    }}
+                  >
+                    Full Stack Developer
+                  </span>{" "}
+                  passionate about building impactful digital solutions. I specialize
+                  in{" "}
+                  <span
+                    style={{
+                      color: "var(--accent-secondary)",
+                      fontWeight: 600,
+                    }}
+                  >
+                    end-to-end web development
+                  </span>
+                  —from intuitive, accessible user interfaces to robust, scalable
+                  backends.
+                  <br />
+                  <br />
+                  My approach blends{" "}
+                  <span
+                    style={{
+                      color: "var(--accent-tertiary)",
+                      fontWeight: 600,
+                    }}
+                  >
+                    creativity
+                  </span>{" "}
+                  and{" "}
+                  <span
+                    style={{
+                      color: "var(--accent-primary)",
+                      fontWeight: 600,
+                    }}
+                  >
+                    technical expertise
+                  </span>{" "}
+                  to deliver products that are not only functional but also visually
+                  engaging and user-centric. I thrive in collaborative environments,
+                  value clean code, and am always eager to learn new technologies.
+                  <br />
+                  <br />
+                  <span
+                    style={{
+                      color: "var(--accent-secondary)",
+                      fontWeight: 600,
+                    }}
+                  >
+                    Key strengths:
+                  </span>{" "}
+                  React, Django, REST APIs, MySQL, Python and Java best
+                  practices. I believe in the power of technology to solve real-world
+                  problems and am committed to continuous growth as a developer and team
+                  player.
                 </p>
+                <ul style={{ marginTop: "1.5rem" }}>
+                  <li>🔹 Strong foundation in both frontend and backend technologies</li>
+                  <li>🔹 Focus on performance, security, and accessibility</li>
+                  <li>🔹 Experience with agile teams and real-world project delivery</li>
+                  <li>🔹 Passionate about lifelong learning and innovation</li>
+                </ul>
               </div>
             </div>
             <div className="col-lg-5">
@@ -81,75 +146,6 @@ function Home() {
           </div>
         </div>
       </section>
-      <section id="education" className="section">
-        <div className="container">
-          <h2 className="text-center mb-5">Education</h2>
-          <div className="row g-4">
-            <div className="col-md-6 mb-4">
-              <div className="education-card">
-                {" "}
-                <div className="education-year">2024 - 2026</div>
-                <h4>Master of Computer Applications (MCA)</h4>
-                <p className="institution">Galgotias University</p>{" "}
-                <p className="education-details">
-                  Major in Artificial Intelligence and Machine Learning
-                  <br />
-                  • Core focus: Machine Learning, Data Structures, Algorithms
-                  and Artificial Intelligence.
-                  <br />• Relevant coursework: Database Management, Web
-                  Development.
-                </p>
-                <div className="education-icon">
-                  <i className="fas fa-graduation-cap"></i>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6 mb-4">
-              <div className="education-card">
-                <div className="education-year">2019 - 2022</div>
-                <h4>Bachelor of Computer Science (BSc)</h4>
-                <p className="institution">Chaudhary Charan Singh University</p>
-                <p className="education-details">
-                  Graduated with 85% | Dean's List
-                  <br />
-                  Core focus on Python, Django, and Web Development.
-                </p>
-                <div className="education-icon">
-                  <i className="fas fa-university"></i>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6">
-              <div className="education-card">
-                <div className="education-year">2017 - 2019</div>
-                <h4>Intermediate</h4>
-                <p className="institution">Sri Sadhana Junior College</p>
-                <p className="education-details">
-                  CGPA: 9.12 | PCM
-                  <br />
-                  Specialized in Mathematics and Science
-                </p>
-                <div className="education-icon">
-                  <i className="fas fa-school"></i>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6">
-              <div className="education-card">
-                <div className="education-year">2017</div>
-                <h4>SSC</h4>
-                <p className="institution">Sri Vivekananda Vidya Peetham</p>
-                <p className="education-details">
-                  CGPA: 9.0 | Board of Secondary Education
-                </p>
-                <div className="education-icon">
-                  <i className="fas fa-award"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>{" "}
       <section id="certificates" className="section">
         <div className="container">
           <h2 className="text-center mb-5">Certifications</h2>
@@ -159,7 +155,12 @@ function Home() {
                 <div className="certificate-icon">
                   <i className="fas fa-database"></i>
                 </div>
-                <div className="certificate-content">                  <a href={fullStackImage} target="_blank" rel="noopener noreferrer">
+                <div className="certificate-content">
+                  <a
+                    href={fullStackImage}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <h3>Full Stack with Python </h3>
                   </a>
 
@@ -173,7 +174,7 @@ function Home() {
                 </div>
               </div>
             </div>
-             <div className="col-md-6 mb-4">
+            <div className="col-md-6 mb-4">
               <div className="certificate-card">
                 <div className="certificate-icon">
                   <i className="fas fa-award"></i>
@@ -231,201 +232,34 @@ function Home() {
                 </div>
               </div>
             </div>
-           
           </div>
         </div>
       </section>
-      <section id="skills" className="section">
-        <div className="container">
-          <h2 className="text-center mb-5">Technical Skills</h2>
-          <div className="row g-4">
-            {" "}
-            <div className="col-md-4">
-              <div className="skill-card">
-                {" "}
-                <h3>Programming Languages</h3>
-                <div className="skill-item">
-                  <span>Python</span>
-                  <div className="skill-progress">
-                    <div
-                      className="progress-bar"
-                      style={{ width: "90%" }}
-                    ></div>
-                  </div>
-                </div>
-                <div className="skill-item">
-                  <span>Java</span>
-                  <div className="skill-progress">
-                    <div
-                      className="progress-bar"
-                      style={{ width: "75%" }}
-                    ></div>
-                  </div>
-                </div>
-                <div className="skill-item">
-                  <span>C</span>
-                  <div className="skill-progress">
-                    <div
-                      className="progress-bar"
-                      style={{ width: "80%" }}
-                    ></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="skill-card">
-                {" "}
-                <h3>Frameworks & Libraries</h3>
-                <div className="skill-item">
-                  <span>Django</span>
-                  <div className="skill-progress">
-                    <div
-                      className="progress-bar"
-                      style={{ width: "88%" }}
-                    ></div>
-                  </div>
-                </div>
-                <div className="skill-item">
-                  <span>Django REST Framework</span>
-                  <div className="skill-progress">
-                    <div
-                      className="progress-bar"
-                      style={{ width: "85%" }}
-                    ></div>
-                  </div>
-                </div>
-                <div className="skill-item">
-                  <span>React</span>
-                  <div className="skill-progress">
-                    <div
-                      className="progress-bar"
-                      style={{ width: "82%" }}
-                    ></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="skill-card">
-                {" "}
-                <h3>Database & Tools</h3>
-                <div className="skill-item">
-                  <span>MySQL</span>
-                  <div className="skill-progress">
-                    <div
-                      className="progress-bar"
-                      style={{ width: "88%" }}
-                    ></div>
-                  </div>
-                </div>
-                <div className="skill-item">
-                  <span>RESTful APIs</span>
-                  <div className="skill-progress">
-                    <div
-                      className="progress-bar"
-                      style={{ width: "85%" }}
-                    ></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+
       <section id="projects" className="section">
         <div className="container">
           <h2 className="text-center mb-5">Projects</h2>
           <div className="row g-4">
             <div className="col-md-6">
               <div className="project-card">
-                {" "}
                 <a href="https://venu0807.github.io/Recommendation_System/">
                  <h3>Movie Recommendation System</h3>
                 </a>
-               
-                <p>Full Stack Project | Duration: 2 months</p>
-                <p>
-                  • Architected and developed a comprehensive movie
-                  recommendation platform using React.js for the frontend and
-                  Django/DRF for the backend, implementing RESTful APIs for
-                  efficient data exchange
-                </p>
-                <p>
-                  • Designed and implemented a robust MySQL database schema for
-                  managing movie data, user preferences, and viewing history,
-                  optimizing query performance for large datasets
-                </p>
-                <p>
-                  • Integrated JWT-based authentication system for secure user
-                  management and personalized recommendations
-                </p>
-                <p>
-                  • Implemented responsive UI design using Bootstrap and custom
-                  CSS, ensuring seamless user experience across devices
-                </p>
-                <div className="project-tech">
-                  <span className="tech-tag">Python</span>
-                  <span className="tech-tag">Django</span>
-                  <span className="tech-tag">React</span>
-                  <span className="tech-tag">MySQL</span>
-                  <span className="tech-tag">REST API</span>
-                  <span className="tech-tag">JWT</span>
-                </div>
               </div>
             </div>
-          </div>
-        </div>
-      </section>{" "}
-      <section id="posts" className="section">
-        <div className="container">
-          <h2 className="text-center mb-5">Recent Activities</h2>
-          <div className="row g-4">
+            {/* New Project Card */}
             <div className="col-md-6">
-              <div className="post-card">
-                <div className="post-icon">
-                  <i className="fas fa-trophy"></i>
-                </div>
-                <div className="post-content">
-                  <h3>Earned New Certification</h3>
-                  <p className="post-date">June 2025</p>
-                  <p className="post-text">
-                    Successfully completed GenAI Powered Data Analytics from
-                    Tata group, enhancing my full-stack development
-                    capabilities.
-                  </p>
-                  <div className="post-tags">
-                    <span>#Django</span>
-                    <span>#WebDevelopment</span>
-                    <span>#Learning</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6">
-              <div className="post-card">
-                <div className="post-icon">
-                  <i className="fas fa-code-branch"></i>
-                </div>
-                <div className="post-content">
-                  <h3>Project Milestone</h3>
-                  <p className="post-date">January 2025</p>
-                  <p className="post-text">
-                    Completed the Movie Recommendation System project using
-                    React and Django, implementing advanced features and robust
-                    architecture.
-                  </p>
-                  <div className="post-tags">
-                    <span>#React</span>
-                    <span>#Django</span>
-                    <span>#ProjectDevelopment</span>
-                  </div>
-                </div>
+              <div className="project-card">
+                <a href="https://venu0807.github.io/Portfolio_React/">
+                  <h3>Personal Portfolio (This Site)</h3>
+                </a>
+                <p>React Portfolio</p>
               </div>
             </div>
           </div>
         </div>
       </section>
+
       <section id="contact" className="section">
         <div className="container">
           <h2 className="text-center mb-5">Contact</h2>
@@ -433,7 +267,10 @@ function Home() {
             <div className="col-lg-8">
               <div className="row g-4">
                 <div className="col-md-6">
-                  <a href="mailto:pvgreddy3@gmail.com" className="contact-item">
+                  <a
+                    href="mailto:pvgreddy3@gmail.com"
+                    className="contact-item"
+                  >
                     <i className="fas fa-envelope"></i>
                     pvgreddy3@gmail.com
                   </a>
@@ -492,10 +329,47 @@ function Home() {
                   </div>
                 </div>
               </div>
+              {/* Contact Form */}
+              <div className="card mt-5" style={{background: 'rgba(30,41,59,0.98)', border: '1px solid var(--accent-info)', boxShadow: '0 8px 32px 0 rgba(31,38,135,0.15)'}}>
+                <h3 className="mb-4" style={{color: 'var(--accent-primary)', fontWeight: 700, letterSpacing: '0.03em'}}>Contact Form</h3>
+                <form action="mailto:pvgreddy3@gmail.com" method="POST" encType="text/plain" style={{fontFamily: 'Poppins, Inter, sans-serif'}}>
+                  <div className="mb-3">
+                    <label htmlFor="contactName" className="form-label" style={{color: 'var(--accent-secondary)', fontWeight: 600}}>Full Name</label>
+                    <input type="text" className="form-control" id="contactName" name="name" required placeholder="Enter your full name" style={{background: '#1e293b', color: 'var(--text-primary)', border: '1px solid var(--accent-info)', fontSize: '1.05rem'}} />
+                  </div>
+                  <div className="mb-3">
+                    <label htmlFor="contactEmail" className="form-label" style={{color: 'var(--accent-secondary)', fontWeight: 600}}>Email Address</label>
+                    <input type="email" className="form-control" id="contactEmail" name="email" required placeholder="your@email.com" style={{background: '#1e293b', color: 'var(--text-primary)', border: '1px solid var(--accent-info)', fontSize: '1.05rem'}} />
+                  </div>
+                  <div className="mb-3">
+                    <label htmlFor="contactSubject" className="form-label" style={{color: 'var(--accent-secondary)', fontWeight: 600}}>Subject</label>
+                    <input type="text" className="form-control" id="contactSubject" name="subject" required placeholder="Subject of your message" style={{background: '#1e293b', color: 'var(--text-primary)', border: '1px solid var(--accent-info)', fontSize: '1.05rem'}} />
+                  </div>
+                  <div className="mb-3">
+                    <label htmlFor="contactMessage" className="form-label" style={{color: 'var(--accent-secondary)', fontWeight: 600}}>Message</label>
+                    <textarea className="form-control" id="contactMessage" name="description" rows="5" required placeholder="Please enter your message here..." style={{background: '#1e293b', color: 'var(--text-primary)', border: '1px solid var(--accent-info)', fontSize: '1.05rem'}}></textarea>
+                  </div>
+                  <div className="mb-3">
+                    <label htmlFor="contactPhone" className="form-label" style={{color: 'var(--accent-secondary)', fontWeight: 600}}>Phone Number (optional)</label>
+                    <input type="tel" className="form-control" id="contactPhone" name="phone" placeholder="e.g. +91 9876543210" style={{background: '#1e293b', color: 'var(--text-primary)', border: '1px solid var(--accent-info)', fontSize: '1.05rem'}} />
+                  </div>
+                  <button type="submit" className="btn btn-primary" style={{fontWeight: 700, fontSize: '1.1rem', letterSpacing: '0.03em'}}>Submit</button>
+                </form>
+              </div>
             </div>
           </div>
         </div>
       </section>
+      <footer className="section" style={{background: 'rgba(15,23,42,0.95)', color: 'var(--text-secondary)', textAlign: 'center', padding: '2rem 0 1rem 0', marginTop: '2rem', borderTop: '1.5px solid var(--accent-info)'}}>
+        <div style={{fontSize: '1.1rem', marginBottom: '0.5rem'}}>
+          &copy; {new Date().getFullYear()} Venu Gopal Reddy Palugulla. All rights reserved.
+        </div>
+        <div style={{fontSize: '1.2rem'}}>
+          <a href="https://www.linkedin.com/in/venu-gopal-reddy-palugulla-4948b8258" target="_blank" rel="noopener noreferrer" style={{color: 'var(--accent-info)', margin: '0 1rem'}}><i className="fab fa-linkedin"></i></a>
+          <a href="https://github.com/venu0807" target="_blank" rel="noopener noreferrer" style={{color: 'var(--accent-info)', margin: '0 1rem'}}><i className="fab fa-github"></i></a>
+          <a href="mailto:pvgreddy3@gmail.com" style={{color: 'var(--accent-info)', margin: '0 1rem'}}><i className="fas fa-envelope"></i></a>
+        </div>
+      </footer>
     </div>
   );
 }

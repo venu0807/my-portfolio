@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priya V. | Full Stack Developer Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome & Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar with departments -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="https://img.icons8.com/color/48/000000/source-code.png" alt="Logo" width="40" class="me-2">
+                <span class="fw-bold">Priya V.</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="departmentsDropdown" role="button" data-bs-toggle="dropdown">
+                            Departments
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#frontend"><i class="bi bi-window"></i> Frontend</a></li>
+                            <li><a class="dropdown-item" href="#backend"><i class="bi bi-hdd-network"></i> Backend</a></li>
+                            <li><a class="dropdown-item" href="#devops"><i class="bi bi-cloud-arrow-up"></i> DevOps</a></li>
+                            <li><a class="dropdown-item" href="#uiux"><i class="bi bi-palette"></i> UI/UX</a></li>
+                            <li><a class="dropdown-item" href="#cloud"><i class="bi bi-cloud"></i> Cloud</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section text-white d-flex align-items-center" style="background: linear-gradient(90deg, #2563eb 60%, #f59e42 100%);">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <h1 class="display-4 fw-bold mb-2 animate-fadein">Full Stack Development Department</h1>
+                    <h2 class="h4 mb-3 animate-fadein-delay">"Building Digital Excellence"</h2>
+                    <p class="lead mb-4 animate-fadein-delay2">
+                        Hi, I'm Priya V. — a passionate Full Stack Developer crafting robust, scalable, and beautiful web solutions.
+                    </p>
+                    <a href="#contact" class="btn btn-warning btn-lg shadow animate-fadein-delay3">
+                        <i class="fa fa-paper-plane me-2"></i>Let's Connect
+                    </a>
+                </div>
+                <div class="col-md-6 text-center animate-fadein-img">
+                    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=500&q=80"
+                        alt="Full Stack Developer" class="img-fluid rounded shadow-lg hero-img-effect">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-7">
+                    <h2 class="fw-bold text-primary mb-3">About Me</h2>
+                    <p>
+                        I specialize in end-to-end web development, blending creative UI/UX with powerful backend logic. My mission is to deliver seamless, high-impact digital experiences that drive results.
+                    </p>
+                    <ul class="list-unstyled mt-3">
+                        <li><i class="fa fa-check-circle text-success me-2"></i>5+ years of experience</li>
+                        <li><i class="fa fa-check-circle text-success me-2"></i>Expert in React, Node.js, Python, AWS</li>
+                        <li><i class="fa fa-check-circle text-success me-2"></i>Strong focus on UI/UX and performance</li>
+                    </ul>
+                </div>
+                <div class="col-md-5 text-center">
+                    <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80"
+                        alt="About Priya" class="img-fluid rounded-circle shadow-lg about-img-effect">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Departments Sections -->
+    <section id="frontend" class="py-5">
+        <div class="container">
+            <h2 class="fw-bold text-primary mb-4"><i class="bi bi-window me-2"></i>Frontend</h2>
+            <p>React, Angular, Vue, HTML5, CSS3, Bootstrap, Responsive Design</p>
+        </div>
+    </section>
+    <section id="backend" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="fw-bold text-primary mb-4"><i class="bi bi-hdd-network me-2"></i>Backend</h2>
+            <p>Node.js, Express, Python, Django, REST APIs, GraphQL, SQL/NoSQL</p>
+        </div>
+    </section>
+    <section id="devops" class="py-5">
+        <div class="container">
+            <h2 class="fw-bold text-primary mb-4"><i class="bi bi-cloud-arrow-up me-2"></i>DevOps</h2>
+            <p>CI/CD, Docker, Kubernetes, GitHub Actions, Monitoring</p>
+        </div>
+    </section>
+    <section id="uiux" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="fw-bold text-primary mb-4"><i class="bi bi-palette me-2"></i>UI/UX</h2>
+            <p>Wireframing, Prototyping, Figma, Accessibility, User Research</p>
+        </div>
+    </section>
+    <section id="cloud" class="py-5">
+        <div class="container">
+            <h2 class="fw-bold text-primary mb-4"><i class="bi bi-cloud me-2"></i>Cloud</h2>
+            <p>AWS, Azure, GCP, Serverless, Cloud Architecture</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="fw-bold text-primary mb-4"><i class="fa fa-folder-open me-2"></i>Featured Projects</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card shadow project-card-effect h-100">
+                        <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80"
+                            class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Project Name</h5>
+                            <p class="card-text">Short description of your project, tech stack, and impact.</p>
+                            <a href="#" class="btn btn-outline-primary btn-sm" target="_blank">
+                                <i class="fa fa-github me-1"></i>View on GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- ...add more projects as needed... -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="fw-bold text-primary mb-4"><i class="fa fa-envelope me-2"></i>Contact Me</h2>
+            <p class="mb-4">Let's build something great together!</p>
+            <div class="d-flex gap-4 flex-wrap">
+                <a href="mailto:your.email@example.com" class="btn btn-outline-primary">
+                    <i class="fa fa-envelope me-2"></i>Email
+                </a>
+                <a href="https://linkedin.com/in/yourprofile" target="_blank" class="btn btn-outline-primary">
+                    <i class="fab fa-linkedin me-2"></i>LinkedIn
+                </a>
+                <a href="https://github.com/yourusername" target="_blank" class="btn btn-outline-primary">
+                    <i class="fab fa-github me-2"></i>GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-primary text-white text-center py-3 mt-5">
+        &copy; 2024 Priya V. | Full Stack Developer Department
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
