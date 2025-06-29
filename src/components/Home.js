@@ -27,12 +27,12 @@ function Home() {
               performance for seamless user experiences.
             </p>
             <a
-              href="https://drive.google.com/file/d/18p1ZEuC88UgJugLxGf2HHd631LT96ejp/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1_15hF6gQnZ8tuiRqRoJww3QUOsEWEhEO/view?usp=drive_link"
               className="hero-resume-btn"
               target="_blank"
               rel="noopener noreferrer"
             >
-              View Resume
+              View My Resume
             </a>
           </div>
           <div className="hero-image-wrapper">
