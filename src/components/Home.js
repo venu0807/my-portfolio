@@ -21,13 +21,14 @@ function Home() {
               Tech !!
             </h1>
             <p className="hero-desc">
-              Python Full Stack Developer with hands-on experience in building
-              dynamic and responsive web applications. Skilled in integrating
-              APIs, implementing authentication mechanisms, and optimizing
-              performance for seamless user experiences.
+              Python Full Stack Developer with hands-on experience in developing
+              robust applications using Python (Django, DRF) and React.js.
+              Skilled in integrating machine learning models into web systems
+              and building scalable backend services. Strong foundation in data
+              structures, RESTful APIs and database design.
             </p>
             <a
-              href="https://drive.google.com/file/d/1_15hF6gQnZ8tuiRqRoJww3QUOsEWEhEO/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1dsp9Aoia-DytwBR29woAuiDo2zpGcNCH/view?usp=drive_link"
               className="hero-resume-btn"
               target="_blank"
               rel="noopener noreferrer"
@@ -68,23 +69,20 @@ function Home() {
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
             alt="React"
           />
-        </div>
-        <div className="skills-icons">
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
-            alt="MySQL"
-          />
-
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
-            alt="Python"
-          />
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
             alt="Java"
           />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+            alt="Django"
+          />
         </div>
         <div className="skills-icons">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+            alt="Python"
+          />
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg"
             alt="Django"
@@ -93,7 +91,44 @@ function Home() {
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/djangorest/djangorest-plain.svg"
             alt="Django REST Framework"
           />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+            alt="MySQL"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+            alt="SQL / PostgreSQL"
+          />
         </div>
+        <div className="skills-icons">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+            alt="Git"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg"
+            alt="Postman"
+          />
+        </div>
+        <div className="skills-icons">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"
+            alt="NumPy"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg"
+            alt="Pandas"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg"
+            alt="Matplotlib"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg"
+            alt="Scikit-learn"
+          />
+        </div>
+        <div className="skills-icons"></div>
       </section>
 
       {/* Projects Section */}
